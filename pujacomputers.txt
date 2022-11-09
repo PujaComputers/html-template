@@ -1,0 +1,144 @@
+https://web.facebook.com/PujaComputers-2042983669088702/?_rdc=1&_rdr
+https://www.linkedin.com/company/pujacomputers
+https://www.youtube.com/channel/UC8RW6Z-UOj3121cD8GNlrvQ
+
+
+Project Poramorsho.
+Going to Project Location
+cd c:\XAMPP\htdocs\Laravel
+create project
+composer create-project  --prefer-dist  laravel/laravel poramorsho
+
+go to migration and model and update this
+create database -> poramorsho
+
+then write this comments
+
+php artisan migrate
+
+ composer require laravel/ui 
+ php artisan ui bootstrap --auth 
+npm install
+
+npm run dev
+
+create middleware for checking this role
+
+php artisan make:middleware UserAccess
+
+Then register this middleware in the app/Http/Kernel.php. So, open kernal.php
+
+ 'user-access' => \App\Http\Middleware\UserAccess::class,
+
+update HomeController
+
+create view
+
+update LoginCrotroller
+
+some change in User Model
+
+for route
+use App\Http\Controllers\HomeController;
+
+
+
+
+
+
+config/database 'strict' => true this true position write false, // that is true
+
+
+
+
+
+
+
+php artisan make:model Post -m
+
+php artisan make:model Comment -m
+
+
+php artisan make:controller PostController --resource
+
+php artisan make:controller CommentController
+
+php artisan make:controller UserController –-resource
+
+
+php artisan make:model Category -m
+
+php artisan make:controller CategoryController --resource
+
+
+php artisan make:controller CounselController --resource
+
+php artisan make:model Counsel -m
+
+
+
+php artisan make:model Discussion -m
+
+
+
+	if({{$post->user_id==$my_id}})
+
+
+
+
+
+
+
+
+php artisan make:controller BlogController --resource
+
+
+
+
+
+
+
+
+
+
+
+
+Application Name Change
+
+cd c:\XAMPP\htdocs\Laravel\accent
+
+public folder .htaccess file copy and peste root
+
+then server.php file rename to index.php
+
+
+
+
+php artisan config:cache
+php artisan cache:clear 
+php artisan migrate
+
+php artisan migrate:fresh
+php artisan migrate
+
+php artisan migrate
+use Auth;
+use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Http\Request;
+
+use App\Models\User;
+
+
+cd c:\XAMPP\htdocs\Laravel\accent
+
+ 1) git init
+ 2) git add . or git add ['filename']
+ 3) git commit -m "My first File"
+ 4) git remote add origin https://github.com/shamoldas/Accent.git
+ 5) git pull origin master
+ 6) git push origin master
+
+
+
+
+https://app.getpostman.com/join-team?invite_code=7d802b71a158b66f0aba07bd7f6f45c9
